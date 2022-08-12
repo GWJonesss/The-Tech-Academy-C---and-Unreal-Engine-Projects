@@ -1,0 +1,4 @@
+﻿  CCSA.cpp
+C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\CCSA\CCSA.cpp(80,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\CCSA\CCSA.cpp(93,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  CCSA.vcxproj -> C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\x64\Debug\CCSA.exe
