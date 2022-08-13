@@ -13,11 +13,9 @@ public:
 
     string Color;
     
-    int getArea(double x, double y)
+    int getArea()
     {
-        int area = x * y;
-        cout << "The Area Is: " << area << endl;
-        return 0;
+        
     }
     
     
@@ -27,24 +25,42 @@ public:
 class Rectangle : public Shape {
 public:
 
-    double height;
-    double width;
-
+    int height;
+    int width;
+    int getArea()
+    {
+        float area = height * width;
+        cout << "The Area Is: " << area << endl;
+        return 0;
+    }
 };
 
 // Triangle sub class derived from a single Shape base class
 class Triangle : public Shape {
 public:
 
-    double height;
-    double base;
+    int height;
+    int base;
+    int getArea()
+    {
+        float area = height * base * .5;
+        cout << "The Area Is: " << area << endl;
+        return 0;
+    }
 
 };
 // Rectangle sub class derived from a single Shape base class
 class Circle : public Shape {
 public:
 
-    double radius;
+    int radius;
+    
+    int getArea()
+    {
+        float area = radius * radius * 3;
+        cout << "The Area Is: " << area << endl;
+        return 0;
+    }
     
 
 };
@@ -57,13 +73,13 @@ int main()
     Rectangle rect1;
 
     rect1.Color = "green";
-    rect1.height = 5.0;
-    rect1.width = 3.0;
+    rect1.height = 5;
+    rect1.width = 3;
     cout << "Rectangle Data:\n";
     cout << "Color: " << rect1.Color << "\n";
     cout << "Height: " << rect1.height << "\n";
     cout << "Width: " << rect1.width << "\n";
-    rect1.getArea(rect1.height, rect1.width);
+    rect1.getArea();
     cout <<"\n";
 
    // Creating object of Triangle sub class will
@@ -71,13 +87,13 @@ int main()
     Triangle tri1;
 
     tri1.Color = "blue";
-    tri1.height = 5.0;
-    tri1.base = 4.0;
+    tri1.height = 5;
+    tri1.base = 4;
     cout << "Triangle Data:\n";
     cout << "Color: " << tri1.Color << "\n";
     cout << "Height: " << tri1.height << "\n";
     cout << "Base: " << tri1.base << "\n";
-    rect1.getArea(tri1.height * tri1.base, 0.5);
+    rect1.getArea();
     cout << "\n";
 
    // Creating object of Circle sub class will
@@ -85,12 +101,12 @@ int main()
     Circle cir1;
 
     cir1.Color = "red";
-    cir1.radius = 2.0;
+    cir1.radius = 2;
     
-    cout << "Rectangle Data:\n";
+    cout << "Circle Data:\n";
     cout << "Color: " << cir1.Color << "\n";
     cout << "Radius: " << cir1.radius << "\n";
-    cir1.getArea(cir1.radius* cir1.radius, 3.14);
+    cir1.getArea();
     cout << "\n";
 
 

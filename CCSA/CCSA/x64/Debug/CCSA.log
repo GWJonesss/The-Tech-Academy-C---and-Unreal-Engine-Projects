@@ -1,3 +1,5 @@
 ﻿  CCSA.cpp
-C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\CCSA\CCSA.cpp(18,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\CCSA\CCSA.cpp(32,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\CCSA\CCSA.cpp(46,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\CCSA\CCSA.cpp(60,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   CCSA.vcxproj -> C:\Users\16083\School\The-Tech-Academy-C---and-Unreal-Engine-Projects\CCSA\x64\Debug\CCSA.exe
